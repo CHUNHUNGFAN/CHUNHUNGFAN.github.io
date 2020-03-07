@@ -1846,10 +1846,18 @@ input, select, textarea {
 
 /* Image */
 
+	.image.right {
+		float: right;
+		padding: 0 0 1em 1.5em;
+		top: 0.25em;
+		height: 25%;
+		width: 25%;
+	}
 	.image {
 		border: 0;
 		position: relative;
 	}
+		
 
 		.image:before {
 			background: url("images/overlay.png");
@@ -1934,7 +1942,7 @@ input, select, textarea {
 				top: -0.2em;
 			}
 
-			.icon.circle.fa-twitter {
+			.icon.circle.fa-linkedin {
 				background: #70aecd;
 				color: #fff;
 			}
@@ -1952,13 +1960,13 @@ input, select, textarea {
 					background: #829bc9;
 				}
 
-			.icon.circle.fa-google-plus-g {
-				background: #db6b67;
+			.icon.circle.fa-google {
+				background: #dd433e;
 				color: #fff;
 			}
 
-				.icon.circle.fa-google-plus-g:hover {
-					background: #df7b77;
+				.icon.circle.fa-google:hover {
+					background: #dd433e;
 				}
 
 			.icon.circle.fa-github {
@@ -1970,12 +1978,12 @@ input, select, textarea {
 					background: #e1b89b;
 				}
 
-			.icon.circle.fa-dribbble {
+			.icon.circle.fa-instagram {
 				background: #da83ae;
 				color: #fff;
 			}
 
-				.icon.circle.fa-dribbble:hover {
+				.icon.circle.fa-instagram:hover {
 					background: #df93b8;
 				}
 
@@ -2527,7 +2535,7 @@ input, select, textarea {
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/IMG_1169.jpg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -2668,6 +2676,15 @@ input, select, textarea {
 					padding: 0;
 					border: 0;
 				}
+
+/* AboutMe */
+
+#aboutme {
+	background: #E8EEF4;
+	color: #fff;
+	padding: 5em 5em 10em 5em;
+	text-align: center;
+}
 
 /* Wide */
 
