@@ -2773,6 +2773,12 @@ input, select, textarea {
 				.wrapper.style4 {
 					padding: 3em;
 				}
+		/* Box */
+
+		.box {
+			padding: 2.5em;
+			margin-bottom: 4em;
+		}
 
 		/* Header */
 
@@ -3309,6 +3315,13 @@ input, select, textarea {
 					background-size: 10em;
 					padding: 1.5em 1.5em 3em 1.5em;
 				}
+		/* Box */
+
+		.box {
+			padding: 2em;
+			margin-bottom: 2em;
+		}
+
 
 		/* Banner */
 
@@ -3497,7 +3510,8 @@ input, select, textarea {
 	}
 
 	.box.alt {
-		background: none !important;
+		/* background: none !important; */
+		background-color: #fff;
 		border-radius: 0 !important;
 		box-shadow: none !important;
 		margin: 0 0 2em 0;
